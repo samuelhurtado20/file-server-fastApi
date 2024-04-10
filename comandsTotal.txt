@@ -1,0 +1,216 @@
+    1  ls
+    2  mkdir dev
+    3  ls
+    4  cd dev
+    5  ls
+    6  ls > output.txt
+    7  ls
+    8  cat output.txt
+    9  less output.txt
+   10  tree
+   11  cowsay "hola"
+   12  sudo apt install cowsay
+   13  cowsay "hola"
+   14  sudo apt install cowsay
+   15  echo "hora oca" | lolcat
+   16  sudo apt install lolcat
+   17  sudo apt update
+   18  sudo apt install cowsay
+   19  cowsay "hola"
+   20  cowsay "hola" | lolcat
+   21  sudo apt install lolcat
+   22  cowsay "hola" | lolcat
+   23  ll
+   24  mkdir project
+   25  cd project
+   26  ll
+   27  git init
+   28  ll
+   29  python
+   30  python3
+   31  sudo apt update
+   32  sudo apt -y upgrade
+   33  python3 -V
+   34  python3
+   35  sudo apt insstall -y python3-pip
+   36  sudo apt install -y python3-pip
+   37  pip3 -V
+   38  sudo apt install -y build-essential libssl-dev libffi-dev python3-dev
+   39  code .
+   40  sudo nano ~/.bashrc
+   41  code .
+   42  sudo nano ~/.bashrc
+   43  code .
+   44  sudo nano ~/.bashrc
+   45  code .
+   46  ll
+   47  cd project
+   48  code .
+   49  python3 hello.py
+   50  ll
+   51  git remote add origin https://github.com/samuelhurtado20/python-pip.git
+   52  git remote -v
+   53  git add *
+   54  git commit -m "first file"
+   55  git config --global user.email "samuelhurtado20@hotmail.com"
+   56  git config --global user.name "SamuelHurtado"
+   57  git commit -m "first file"
+   58  git push origin master
+   59  git branch -M master
+   60  git push origin master
+   61  git -u push origin master
+   62  git push -u origin master
+   63  git remote add origin https://github.com/samuelhurtado20/python-pip.git
+   64  git branch -M master
+   65  git push -u origin master
+   66  git login
+   67  git config --global --list
+   68  git config --global user.name "samuelhurtado20"
+   69  git config --global --list
+   70  git push https://github.com/samuelhurtado20/python-pip.git
+   71  gh auth login
+   72  sudo apt install gh
+   73  sudo apt-get update
+   74  sudo apt install gh
+   75  gh auth login
+   76  git push https://github.com/samuelhurtado20/python-pip.git
+   77  git status}
+   78  git status
+   79  git add *
+   80  git status
+   81  git add .
+   82  git status
+   83  git commit -m "git ignore file"
+   84  git push https://github.com/samuelhurtado20/python-pip.git
+   85  ll
+   86  python3 main.py
+   87  ll
+   88  cd project
+   89  ll
+   90  python3 game.py
+   91  printenv
+   92  doskey /history
+   93  donkey /history
+   94  sudo apt install donkey
+   95  donkey /history
+   96  donkey -h
+   97  donkey -i
+   98  ll
+   99  mkdir game
+  100  mv game.py game
+  101  mv main.py game
+  102  mv hello.py game
+  103  cd game
+  104  python3 main.py
+  105  cd ..
+  106  ll
+  107  mkdir charts
+  108  cd charts
+  109  pip3 install matplotlib
+  110  touch charts.py
+  111  cat charts.py
+  112  ll
+  113  vim charts.py
+  114  cat charts.py
+  115  head charts.py
+  116  tail charts.py
+  117  tail charts.py -n 15
+  118  cat > charts.py
+  119  vim charts.py
+  120  cat > charts.py
+  121  vim charts.py
+  122  cat charts.py
+  123  vim charts.py
+  124  cat charts.py
+  125  vim main.py
+  126  cat main.py
+  127  python3 main.py
+  128  ll
+  129  code .
+  130  sudo code .
+  131  pwd
+  132  ls
+  133  python3 --version
+  134  cd dev
+  135  ls
+  136  cd ..
+  137  cd project
+  138  ls
+  139  cd project
+  140  ll
+  141  pwd
+  142  ll
+  143  cd face-detector-python
+  144  python3 detect.py
+  145  pip3 install requests
+  146  python3 detect.py
+  147  code .
+  148  code . -r
+  149  python3 detect.py
+  150  clear
+  151  python3 detect.py
+  152  cd ..
+  153  ll
+  154  list dev
+  155  ls dev
+  156  cd dev
+  157  mkdir py-face-quick
+  158  cd py-face-quick
+  159  ll
+  160  python3 -m venv env
+  161  source env/bin/activate
+  162  pip install azure-cognitiveservices-vision-face
+  163  python -m pip install Pillow
+  164  pip3 install requests uuid
+  165  touch FaceQuickstart-sigle.py
+  166  touch FaceQuickstart-single.py
+  167  ll
+  168  ls
+  169  rm FaceQuickstart-sigle.py
+  170  ls
+  171  code .
+  172  sudo code .
+  173  code .
+  174  cd dev
+  175  cd py-face-quick
+  176  source env/bin/activate
+  177  ls
+  178  code .
+  179  pip3 i
+  180  pip3 install
+  181  python3 install
+  182  npm i
+  183  python3 FaceQuickstart-single.py
+  184  python3 DetectFaceAttributes.py
+  185  clear
+  186  python3 DetectFaceAttributes.py
+  187  python3 FaceQuickstart-single.py
+  188  clear
+  189  python3 FaceQuickstart-single.py
+  190  ls
+  191  cd dev
+  192  ls
+  193  rm output.txt
+  194  ls
+  195  mkdir file-server-fastApi
+  196  cd file-server-fastApi
+  197  python3 -m venv fenv
+  198  source fenv/bin/activate
+  199  pip3 install fastapi uvicorn
+  200  pip3 freese
+  201  pip3 freeze
+  202  pip3 freeze > requirements.txt
+  203  ls
+  204  touch main.py
+  205  ls
+  206  code .
+  207  pip3 install python-multipart
+  208  uvicorn main:app --host="0.0.0.0" --port="5000" --reload
+  209  pip3 install aiofiles
+  210  uvicorn main:app --host="0.0.0.0" --port="5000" --reload
+  211  pip3 freeze > requirements.txt
+  212  cat requirements.txt 
+  213  history
+  214  history > comands.tx
+  215  history > comands.txt
+  216  history > comandsTotal.txt

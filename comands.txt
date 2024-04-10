@@ -1,0 +1,17 @@
+  195  mkdir file-server-fastApi
+  196  cd file-server-fastApi
+  197  python3 -m venv fenv
+  198  source fenv/bin/activate
+  199  pip3 install fastapi uvicorn
+  202  pip3 freeze > requirements.txt
+  203  ls
+  204  touch main.py
+  205  ls
+  206  code .
+  207  pip3 install python-multipart
+  208  uvicorn main:app --host="0.0.0.0" --port="5000" --reload
+  209  pip3 install aiofiles
+  210  uvicorn main:app --host="0.0.0.0" --port="5000" --reload
+  211  pip3 freeze > requirements.txt
+  212  cat requirements.txt 
+  215  history > comands.txt
